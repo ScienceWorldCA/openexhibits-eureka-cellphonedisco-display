@@ -1,0 +1,10 @@
+<cml>
+	<!-- Top Section  -->
+	<Container id="title">
+	  <Graphic id="title-sq1" class="grey-square" />
+	  <Graphic id="title-bg" class="green-rectangle" >
+	    <Text id="title-txt" class="title-discophone" />
+	  </Graphic>
+	  <Graphic id="title-sq2" class="grey-rectangle"/>
+	</Container>
+</cml>

@@ -1,0 +1,21 @@
+<cml css="library/css/panelstyles.css">
+
+<Container id="content-panel2" class="contentpanel">
+	<Graphic id="content-panel2-top" class="contentpaneltop">
+	<Image id="content-panel2-top" src="library/assets/bg2.png"/>
+	  <Text id="content-panel2-top-text" class="contentpaneltoptext" str="ARE MOBILE DEVICES SAFE FOR PEOPLE?"/>
+	</Graphic>
+
+	<Graphic id="content-panel2-bottom" class="contentpanelbottom">
+		<Text id="content-panel0-bottom-text" class="contentpanelbottomtext"> 
+			<p>No one knows for sure. Scientists are researching whether using wireless devices over many years is harmful. <br/><br/>
+			Canadian law controls the amount of energy sent out by these devices. All devices sold or used in Canada emit less energy than the maximum levels allowed by the government.</p>
+		</Text>
+		<Frame id="content-panel2-button" class="contentpanelbutton">
+			<Text class="contentpanelbuttontext" str="LEARN MORE"/>
+			<Gesture ref="n-tap" />
+		</Frame>
+	</Graphic>
+</Container>
+
+</cml>

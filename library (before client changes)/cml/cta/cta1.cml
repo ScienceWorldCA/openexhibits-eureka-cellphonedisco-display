@@ -1,0 +1,8 @@
+<cml>
+	<!-- Main Screen – Top Red Header Section - Slideshow Content -->
+	<Graphic id="cta-bg1" class="cta-bg" color="0x00FF00">
+		<Image id="wb-2" src="library/assets/ctabg.png" width="1050"/>
+		<Text id="cta-title1" class="cta-title" embedFonts="true" str="CALL SOMEONE" />
+		<Text id="cta-subtitle1" class="cta-subtitle" str="AND SEE WHAT HAPPENS!" />
+	</Graphic> 
+</cml>

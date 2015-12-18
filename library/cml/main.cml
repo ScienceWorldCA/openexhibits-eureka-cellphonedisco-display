@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml css="library/css/styles.css" tuio="false" simulator="true">
+
+<Stage color="0x000000" fullscreen="true" width="1080" height="1920">
+
+	<Container id="screen" x="0" y="0">
+		<!-- Header -->
+		<Include src="library/cml/header.cml" />
+
+		<!-- CTA -->
+		<!-- Main Screen – Top Red Header Section 
+		(Rotate through slideshow – this section is non interactive) -->
+		<TouchContainer id="cta" x="0" y="113">
+			<Album id="cta-album" applyMask="true" snapping="true" centerContent="true" loop="true" autoShuffle="true" margin="0" x="15" y="0" width="1050" height="448">
+				<Include src="library/cml/cta/cta1.cml" id="cta-bg1"/>
+				<Include src="library/cml/cta/cta2.cml" id="cta-bg2"/>
+				<Include src="library/cml/cta/cta3.cml" id="cta-bg3"/>
+				<Include src="library/cml/cta/cta4.cml" id="cta-bg4"/>
+				<Include src="library/cml/cta/cta0.cml" id="cta-bg0"/>
+			</Album>
+		</TouchContainer>
+
+		<!-- WHAT'S HAPPENING? -->
+		<!-- Home Screen – Second Section
+		(Middle section - grey with icons) -->
+		<!-- This container name is sent to the DTS when the user taps outside the
+		information bubbles -->
+		<Container id="whatshapp" name="What's Happening Section - No specific Info Bubble" x="0" y="576">
+			<Graphic id="whatshapp-bg">
+				<Text id="whatshapp-title" str="WHAT'S HAPPENING?"/>
+				<!-- Info Buttons -->
+				<Include src="library/cml/infoicons/infoicon0.cml" />
+				<Include src="library/cml/infoicons/infoicon1.cml" />
+				<Include src="library/cml/infoicons/infoicon2.cml" />
+			</Graphic>
+			
+			<Gesture ref="n-tap"/>
+		</Container>
+
+		<!-- CONTENT -->
+		<!-- Home Screen – Third Section
+		(Panels*) -->
+		<Container id="content" x="0" y="965">
+			<Image id="content-overlay" src="library/assets/PanelOverlay.png" mouseChildren="true" touchChildren="true">
+				<Album id="content-album" applyMask="true" snapping="true" mouseChildren="true" touchChildren="true" centerContent="true" loop="true"x="-150" y="0" width="1300" height="839"> 
+					<!-- Content Panels -->
+					<Include src="library/cml/panels/content-panel0.cml" />
+					<Include src="library/cml/panels/content-panel1.cml" />
+					<Include src="library/cml/panels/content-panel2.cml" />
+					<Include src="library/cml/panels/content-panel3.cml" />
+					<Include src="library/cml/panels/content-panel4.cml" />
+				</Album>
+			</Image>
+		</Container>
+
+		<!-- Footer -->
+		<!-- Bottom Section  -->
+		<Include src="library/cml/footer.cml" />
+
+		<Gesture ref="n-tap"/>
+	</Container>
+
+	<!-- Content Overlays -->
+	<Include src="library/cml/overlays/overlay0.cml" />
+	<Include src="library/cml/overlays/overlay1.cml" />
+	<Include src="library/cml/overlays/overlay2.cml" />
+	<Include src="library/cml/overlays/overlay3.cml" />
+	<Include src="library/cml/overlays/overlay4.cml" />
+
+	<!-- Attract overlay -->
+	<Image id="attract" src="library/assets/Instruction Overlay.png">
+		<Gesture ref="n-tap" />
+		<Gesture ref="n-flick"/>
+	</Image>
+
+</Stage>
+
+</cml>

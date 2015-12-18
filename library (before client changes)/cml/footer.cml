@@ -1,0 +1,14 @@
+<cml>
+	<!-- Bottom Section  -->
+	<Container id="bottom" x="0" y="1820">
+	  <Graphic id="bottom-sq1" class="grey-rectangle">
+	    <Text id="bottom-sq1-txt">
+	      <p>Created by INFORMATION LAB<br />Ursula Lavrencic & Auke Touwslager</p>
+	    </Text>
+	  </Graphic>
+	  <Graphic id="bottom-bg" class="green-rectangle" x="283" y="0" >
+	    <Text id="bottom-txt" class="title-discophone" />
+	  </Graphic>
+	  <Graphic id="bottom-sq2" class="grey-square" />
+	</Container>
+</cml>

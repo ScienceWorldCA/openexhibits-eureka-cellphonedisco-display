@@ -1,0 +1,503 @@
+/***************** GENERAL **********************/
+text{
+	selectable:false;
+	text-align: left;
+}
+
+#attract{
+	visible: false;
+	width:1080;
+	height:1920;
+}
+/******************* HEADER **********************/
+
+.title-discophone{
+	x:0;
+	y:0;
+	fontSize:60;
+	text-align: center;
+	color:0xFFFFFF;
+	width:684;
+	height:84;
+	font:LatoBlack;
+	str:CELL PHONE DISCO;
+}
+
+.grey-square{
+	shape:"rectangle";
+	width:83;
+	height:84;
+	alpha:1;
+	color:0x535353;
+}
+
+.grey-rectangle{
+	shape:"rectangle";
+	width:253;
+	height:84;
+	alpha:1;
+	color:0x535353;
+}
+
+.purple-square{
+	shape:"rectangle";
+	width:98;
+	height:84;
+	alpha:1;
+	color:0x9900FF;
+}
+
+.green-rectangle{
+	shape:"rectangle";
+	width:684;
+	height:84;
+	alpha:1;
+	color:0xBAC000;
+}
+
+#title {
+	x:0;
+	y:15;
+}
+
+#title-sq1 {
+	x:15;
+	y:0;
+}
+
+#title-bg{
+	x:113;
+	y:0;
+}
+
+#title-sq2 {
+	x:812;
+	y:0;
+}
+
+/*****************CTA*******************/
+
+.cta-bg {
+	x:15;
+	shape:"rectangle";
+	width:1050;
+	height:435;
+	alpha:1;
+	color:0xF60000;
+}
+
+.cta-title{
+	x:0;
+	y:110;
+	text-align: center;
+	font-size:125;
+	color:0xFFFFFF;
+	width:1050;
+	height:440;
+	font:LatoHeavy;
+}
+
+.cta-subtitle{
+	x:0;
+	y:260;
+	text-align: center;
+	fontSize:41;
+	color:0xFFFFFF;
+	width:1050;
+	height:84;
+	font:LatoMedium;
+}
+
+/*DOES NOT WORK!!!*/
+/*#cta-bg0 > .cta-title {
+	str:CALL SOMEONE;
+}
+
+#cta-bg0 > .cta-subtitle {
+	str:AND SEE WHAT HAPPENS!;
+}*/
+
+/********************WHATS HAPPENING?****************/
+
+#whatshapp-bg{
+	x:15;
+	shape:"rectangle";
+	width:1050;
+	height:374;
+	alpha:1;
+	color:0x535353;
+}
+
+#whatshapp-title{
+	x:0;
+	y:20;
+	fontSize:54;
+	text-align: center;
+	color:0xFFFFFF;
+	width:1050;
+	height:150;
+	font:LatoBlack;
+}
+
+.infotext{
+	y:284;
+	fontSize:13;
+	text-align: center;
+	color:0xFFFFFF;
+	width:155;
+	height:150;
+	font:LatoRegular;
+}
+
+.infoiconbutton {
+	y:230;
+	scale:1;
+}
+
+.infobubble {
+	y:150;
+	visible:false;
+	scale:1;
+}
+
+.infobubbletext{
+	x:0;
+	fontSize:13;
+	text-align: center;
+	vertical-align: middle;
+	color:0x000000;
+	width:155;
+	height:90;
+	font:LatoRegular;
+}
+
+/***************CONTENT PANELS****************/
+
+p.list {x:40;}
+
+#content-bg{
+	x:15;
+	shape:"rectangle";
+	width:1050;
+	height:839;
+	alpha:1;
+	color:0x00FF00;
+}
+
+.contentpanel{
+	width:461;
+	height:839;
+}
+
+.contentpaneltop{
+	x:7.5;
+	shape:"rectangle";
+	width:446;
+	height:296;
+}
+
+.contentpaneltoptextbg{
+	x:0;
+	y:169;
+	shape:"rectangle";
+	width:446;
+	height:130;
+	color:0x000000;
+	alpha:0.5;
+}
+
+.contentpaneltoptext{
+	x:40;
+	y:0;
+	fontSize:35;
+	text-align: left;
+	vertical-align: bottom;
+	color:0xFFFFFF;
+	width:270;
+	height:296;
+	font:LatoBlack;
+	wordWrap:true;
+	multiline:true;
+}
+
+.contentpaneltoptext2{
+	x:40;
+	y:0;
+	fontSize:35;
+	text-align: left;
+	vertical-align: bottom;
+	color:0xFFFFFF;
+	width:426;
+	height:296;
+	font:LatoBlack;
+	wordWrap:true;
+	multiline:true;
+}
+
+.contentpanelbottom{
+	x:7.5;
+	y:313;
+	shape:"rectangle";
+	width:446;
+	height:528;
+	color:0x535353;
+}
+
+.contentpanelbottomtext{
+	x:0;
+	y:0;
+	fontSize:20;
+	/*text-align: center;*/
+	color:0xFFFFFF;
+	width:446;
+	height:528;
+	font:LatoRegular;
+	font-weight: 300;
+	wordWrap:true;
+	multiline:true;
+	paddingTop:40;
+	paddingLeft:40;
+	paddingRight:40;
+}
+
+.contentpanelbottomtextlist{
+	x:40;
+	y:140;
+	fontSize:20;
+	/*text-align: center;*/
+	color:0xFFFFFF;
+	width:446;
+	height:528;
+	font:LatoRegular;
+	font-weight: 300;
+	wordWrap:true;
+	multiline:true;
+	paddingTop:40;
+	paddingLeft:40;
+	paddingRight:40;
+}
+
+.contentpanelbutton{
+	x:90;
+	y:430;
+	width:277;
+	height:56;
+	frameThickness:1;
+	frameColor: 0xFFFFFF;
+}
+
+.contentpanelbutton2{
+	x:40;
+	y:40;
+	width:277;
+	height:56;
+	frameThickness:1;
+	frameColor: 0xFFFFFF;
+}
+
+.contentpanelbuttontext{
+	y:10;
+	width:277;
+	height:56;
+	fontSize:24;
+	text-align: center;
+	color:0xFFFFFF;
+	width:277;
+	height:56;
+	font:LatoBlack;
+}
+
+/****************OVERLAYS*******************/
+
+.overlay{
+	visible:false;
+}
+
+/*.overlayframe{
+	x:180;
+	y:444;
+	width: 750;
+	height: 1040;
+	frameThickness:10;
+	frameColor:0x959595;
+	frameAlpha:1;
+}
+
+.overlaybg{
+	x:0;
+	y:0;
+	shape:"rectangle";
+	width:750;
+	height:1040;
+	color:0x000000;
+}*/
+
+#overlay0-frame{
+	x:180;
+	y:544;
+	width: 750;
+	height: 720;
+	frameThickness:10;
+	frameColor:0x959595;
+	frameAlpha:1;
+}
+
+#overlay0-bg{
+	x:0;
+	y:0;
+	shape:"rectangle";
+	width:750;
+	height:720;
+	color:0x000000;
+}
+
+#overlay1-frame{
+	x:180;
+	y:100;
+	width: 750;
+	height: 1720;
+	frameThickness:10;
+	frameColor:0x959595;
+	frameAlpha:1;
+}
+
+#overlay1-bg{
+	x:0;
+	y:0;
+	shape:"rectangle";
+	width:750;
+	height:1720;
+	color:0x000000;
+}
+
+#overlay2-frame {
+	x:180;
+	y:544;
+	width: 750;
+	height: 800;
+	frameThickness:10;
+	frameColor:0x959595;
+	frameAlpha:1;
+}
+
+#overlay2-bg{
+	x:0;
+	y:0;
+	shape:"rectangle";
+	width:750;
+	height:800;
+	color:0x000000;
+}
+
+#overlay3-frame{
+	x:180;
+	y:344;
+	width: 750;
+	height: 1150;
+	frameThickness:10;
+	frameColor:0x959595;
+	frameAlpha:1;
+}
+
+#overlay3-bg{
+	x:0;
+	y:0;
+	shape:"rectangle";
+	width:750;
+	height:1150;
+	color:0x000000;
+}
+
+#overlay4-frame{
+	x:180;
+	y:344;
+	width: 750;
+	height: 422;
+	frameThickness:10;
+	frameColor:0x959595;
+	frameAlpha:1;
+}
+
+#overlay4-bg{
+	x:0;
+	y:0;
+	shape:"rectangle";
+	width:750;
+	height:422;
+	color:0x000000;
+}
+
+.overlaytitle{
+	x:15;
+/*	y:20;*/
+	fontSize:40;
+/*	text-align: center;*/
+	color:0xFFFFFF;
+	width:700;
+	height:140;
+	font:LatoRegular;
+	wordWrap:true;
+	multiline:true;
+	paddingTop:40;
+	paddingLeft:40;
+	paddingRight:40;
+}
+
+.overlaytext{
+	x:15;
+	/*y:160;*/
+	fontSize:20;
+/*	text-align: left;*/
+	color:0xFFFFFF;
+	width:700;
+/*	height:1040;*/
+	font:LatoRegular;
+	wordWrap:true;
+	multiline:true;
+	paddingTop:40;
+	paddingLeft:40;
+	paddingRight:40;
+}
+
+.overlaytextlist{
+	x:55;
+	/*y:160;*/
+	fontSize:20;
+/*	text-align: left;*/
+	color:0xFFFFFF;
+	width:700;
+/*	height:1040;*/
+	font:LatoRegular;
+	wordWrap:true;
+	multiline:true;
+	paddingTop:40;
+	paddingLeft:40;
+	paddingRight:40;
+}
+
+.overlayclose{
+	x:750;
+	y:-40;
+}
+
+/****************FOOTER*********************/
+
+#bottom-sq2 {
+	x:981;
+	y:0;
+}
+
+#bottom-sq1-txt{
+	x:15;
+	y:25;
+	fontSize:13;
+	color:0xFFFFFF;
+	width:268;
+	height:84;
+	font:LatoRegular;
+}
+
+#bottom-sq1 {
+	x:15;
+	y:0;
+}

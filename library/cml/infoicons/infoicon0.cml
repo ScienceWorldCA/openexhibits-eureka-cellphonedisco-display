@@ -1,0 +1,22 @@
+<cml>
+	<!-- Home Screen – Second Section - Icon and Text -->
+	<!-- IMPORTANT: This is an interactive button, which will be included in the DTS -->
+	<!-- The property "name" is how this button will show in the DTS -->
+	<TouchContainer class="infoicon" name="Make a call">
+		<Image id="whatshapp-bigicon0" src="library/assets/whatshap0.png" x="111" y="109"/>
+		<Text id="whatshapp-info1text" class="infotext" x="115" str="MAKE A CALL."/>
+		
+		<Image id="whatshapp-infoicon0" class="infoiconbutton" src="library/assets/Info Icon.png" x="245"/>
+		<Container id="whatshapp-infobubble" name="infobubble" class="infobubble" x="95">
+			<Image src="library/assets/More info toggle.png"/>
+			<Text id="whatshapp-infobubble0text" class="infobubbletext" >
+				<p>Cell phones<br/>
+				use radio waves<br/>
+				and microwaves<br/>
+				to communicate.</p>
+			</Text>
+		</Container>
+
+		<Gesture ref="n-tap" />
+	</TouchContainer>
+</cml>

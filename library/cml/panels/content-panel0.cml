@@ -1,0 +1,29 @@
+<cml css="library/css/panelstyles.css">
+
+<Container id="content-panel0" class="contentpanel">
+	<Graphic id="content-panel0-top" class="contentpaneltop">
+		<Image id="content-panel0-top" src="library/assets/bg0.png"/>
+		<Text id="content-panel0-top-text" class="contentpaneltoptext" str="WHAT IS CELL PHONE DISCO?" />
+	</Graphic>
+
+	<Graphic id="content-panel0-bottom" class="contentpanelbottom">
+		<Text id="content-panel0-bottom-text" class="contentpanelbottomtext">
+			<p>Behind the wall there are small antennae and sensors that can
+detect how much Electromagnetic Radiation is being broadcast 
+in the specific wavelengths that are commonly used for cell
+phone communication.  <br/><br/>
+
+Based on the strength of the signal
+being received at each sensor, controllers inside the wall
+send a signal to each light telling it how brightly to glow.
+Brighter lights mean a stronger signal.
+White light indicates a very strong signal.</p>
+		</Text>
+		<Frame id="content-panel0-button" class="contentpanelbutton">
+			<Text class="contentpanelbuttontext" str="LEARN MORE" />
+			<Gesture ref="n-tap" />
+		</Frame>
+	</Graphic>
+</Container>
+
+</cml>

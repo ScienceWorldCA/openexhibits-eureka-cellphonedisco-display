@@ -1,0 +1,25 @@
+<cml>
+	<!-- Home Screen – Second Section - Icon and Text -->
+	<!-- IMPORTANT: This is an interactive button, which will be included in the DTS -->
+	<!-- The property "name" is how this button will show in the DTS -->
+	<TouchContainer class="infoicon" name="Radio wave energy is created">
+		<Image id="whatshapp-bigicon0" src="library/assets/whatshap2.png" x="753" y="109"/>
+		<Text id="whatshapp-info2text" class="infotext" x="760" >
+			<p>RADIO WAVE ENERGY<br/>
+			IS CREATED.</p>
+		</Text>
+
+		<Image id="whatshapp-infoicon2" class="infoiconbutton" src="library/assets/Info Icon.png" x="887"/>
+		<Container id="whatshapp-infobubble" class="infobubble" x="737">
+			<Image src="library/assets/More info toggle.png"/>
+			<Text id="whatshapp-infobubble2text" class="infobubbletext" >
+				<p>Radio wave energy<br />
+				is emitted from mobile<br />
+				phones during a call<br />
+				or data transmission.</p>
+			</Text>
+		</Container>		
+
+		<Gesture ref="n-tap" />
+	</TouchContainer>
+</cml>

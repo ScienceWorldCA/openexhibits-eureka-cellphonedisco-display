@@ -1,0 +1,8 @@
+<cml>
+	<!-- Main Screen – Top Red Header Section - Slideshow Content -->
+    <Graphic id="cta-bg2" class="cta-bg">
+      <Image id="wb-2" src="library/assets/ctabg.png" width="1050"/>
+      <Text id="cta-title2" class="cta-title" embedFonts="true" str="SEND A TEXT" />
+      <Text id="cta-subtitle2" class="cta-subtitle" str="AND WATCH THE EXHIBIT LIGHT UP!" />
+    </Graphic>
+</cml>

@@ -1,0 +1,31 @@
+<cml>
+<!-- Home Screen – Third Section (Panels*)
+Overlay Panel Content -->
+<!-- IMPORTANT: This is an interactive button, which will be included in the DTS -->
+<!-- The property "name" is how this content will show in the DTS -->
+<Container id="overlay2" class="overlay" mouseChildren="true" name="CAN YOU PROTECT YOURSELF FROM EMR?">
+	<Image id="overlay2-screenbg" class="overlayscreenbg" src="library/assets/overlaybg.png">
+		<Gesture ref="n-tap" />
+	</Image>
+
+	<Frame id="overlay2-frame">
+		<Image id="overlay2-closebutton" class="overlayclose" src="library/assets/overlayclose.png">
+			<Gesture ref="n-tap" />
+		</Image>
+		<Graphic id="overlay2-bg"/>
+		
+		<Container class="overlayvideo" >
+			<Video x="30" y="30" id="overlay2-video" src="library/assets/Cell Phone Disco Panel 3 Radiation.mp4" width="700" height="394" autoplay="false" loop="true" name="CAN YOU PROTECT YOURSELF FROM EMR? Video"/>
+			<Image x="300" y="150" id="playbutton" visible="true" src="library/assets/play.png"/>
+			<Image x="300" y="150" id="pausebutton" visible="false" src="library/assets/pause.png"/>
+			<Gesture ref="n-tap" />
+		</Container>
+
+		<Text id="overlay2-title" y="430" class="overlaytitle" str="CAN YOU PROTECT YOURSELF FROM EMR?" />
+		<Text id="overlay2-text" class="overlaytext" y="530" height="520" >
+			<p>Some companies or online websites sell pendants or bracelets that they claim will shield you from Electromagnetic Radiation.  While very lucrative for those selling them, these devices do not actually block EMR because it is all around you all the time.  The only way to block most types of EMR would be to encase your body in Lead.   That could get heavy.</p>
+		</Text>
+	</Frame>
+</Container>
+
+</cml>

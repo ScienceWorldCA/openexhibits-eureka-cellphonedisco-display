@@ -1,0 +1,34 @@
+<cml>
+<!-- Home Screen – Third Section (Panels*)
+Overlay Panel Content -->
+<!-- IMPORTANT: This is an interactive button, which will be included in the DTS -->
+<!-- The property "name" is how this content will show in the DTS -->
+<Container id="overlay3" class="overlay" mouseChildren="true" name="WHY DOES THE WALL FLASH RANDOMLY?">
+	<Image id="overlay3-screenbg" class="overlayscreenbg" src="library/assets/overlaybg.png">
+		<Gesture ref="n-tap" />
+	</Image>
+
+	<Frame id="overlay3-frame" class="overlayframe">
+		<Image id="overlay3-closebutton" class="overlayclose" src="library/assets/overlayclose.png">
+			<Gesture ref="n-tap" />
+		</Image>
+		<Graphic id="overlay3-bg" class="overlaybg"/>
+		<Text id="overlay3-title" class="overlaytitle" >
+			<p>WHY DOES THE WALL FLASH RANDOMLY?</p>
+		</Text>
+		<Image x="160" y="180" scale="0.2" src="library/assets/one.jpg"/>
+		<Text id="overlay3-text" class="overlaytext" y="400" height="700" >
+			<p>From time to time you may see random bursts or sparkles of light across the wall, even if no one is using their cell phone nearby.  These can be caused by a variety of sources:<br/>
+			<br/>
+	•	Normal background radiation that happens to be at the wavelength used for cell phone communication<br/>
+	<br/>
+	•	Other electrical equipment in the building (elevator motors, fans, air conditioning units, etc) that can emit a burst of radiation over a range of wavelengths when they turn on and off.<br/>
+	<br/>
+	•	Cell phones being used in other parts of the building. <br/>
+	<br/>
+	Electromagnetic radiation can travel quite well through floors, walls, and ceilings (depending what material they are made out of).  Phones being used on other floors of Science World can also trigger the Cell Phone Disco lights. Watch closely just before an Omnimax film is scheduled to begin and you will often see a burst of lights as people in the theatre switch off their phones, sending a signal to the nearest tower that they can no longer be reached.</p>
+</Text>
+	</Frame>
+</Container>
+
+</cml>

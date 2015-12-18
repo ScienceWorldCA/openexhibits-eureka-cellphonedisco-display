@@ -1,0 +1,19 @@
+<cml css="library/css/panelstyles.css">
+
+<Container id="content-panel1" class="contentpanel">  
+	<Graphic id="content-panel1-top" class="contentpaneltop" color="0x00dcd6">
+	  <Text id="content-panel1-top-text" class="contentpaneltoptext" str="WHAT IS ELECTROMAGNETIC RADIATION?"/>
+	</Graphic>
+
+	<Graphic id="content-panel1-bottom" class="contentpanelbottom" >
+		<Text id="content-panel0-bottom-text" class="contentpanelbottomtext" >
+			<p>Electromagnetic Radiation (EMR) is Energy.  It surrounds us wherever we go, night or day.  People use Electromagnetic Radiation but it was not invented.  Electromagnetic radiation has been part of nature since the beginning of time.   Light, heat, X-Rays, microwaves, and radio waves are all types of Electromagnetic Radiation.</p>
+		</Text>
+		<Frame id="content-panel1-button" class="contentpanelbutton">
+			<Text class="contentpanelbuttontext" str="LEARN MORE"/>
+			<Gesture ref="n-tap" />
+		</Frame>
+	</Graphic>
+</Container>
+
+</cml>

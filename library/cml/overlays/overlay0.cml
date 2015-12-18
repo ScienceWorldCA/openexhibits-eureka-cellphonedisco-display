@@ -1,0 +1,36 @@
+<cml>
+<!-- Home Screen – Third Section (Panels*)
+Overlay Panel Content -->
+<!-- IMPORTANT: This is an interactive button, which will be included in the DTS -->
+<!-- The property "name" is how this content will show in the DTS -->
+<Container id="overlay0" class="overlay" mouseChildren="true" name="Panel 1 Overlay (No Title)">
+	<Image id="overlay0-screenbg" class="overlayscreenbg" src="library/assets/overlaybg.png">
+		<Gesture ref="n-tap" />
+	</Image>
+
+	<Frame id="overlay0-frame" class="overlayframe" mouseChildren="true" >
+		<Image id="overlay0-closebutton" class="overlayclose" src="library/assets/overlayclose.png">
+			<Gesture ref="n-tap" />
+		</Image>
+
+		<Graphic id="overlay0-bg" class="overlaybg"/>
+		<Image x="0" y="0" src="library/assets/image0.png"/>
+
+<Text x="40" y="275" id="overlay3-title" class="overlaytitle" >
+			<p>HOW DOES CELL <br/>PHONE DISCO WORK?</p>
+		</Text>
+		
+
+			<Text x="40" y="400" id="overlay0-text" class="overlaytext" height="400">
+				<p>Behind the wall there are small antennae and sensors that can detect how much Electromagnetic Radiation is being broadcast in the specific wavelengths that are commonly used for cell phone communication in our area (836MHZ, 1732MHz, and 1880 MHz). <br/><br/> 
+
+				Based on the strength of the signal being received at each sensor, controllers inside the wall send a signal to each light telling it how brightly to glow.  Brighter lights mean a stronger signal.  White light indicates a very strong signal.
+				</p>
+			</Text>
+			
+			
+
+	</Frame>
+</Container>
+
+</cml>

@@ -1,0 +1,8 @@
+<cml>
+	<!-- Main Screen – Top Red Header Section - Slideshow Content -->
+	<Graphic id="cta-bg0" class="cta-bg">
+	  <Image id="wb-2" src="library/assets/ctabg.png" width="1050" />
+	  <Text id="cta-title0" class="cta-title" embedFonts="true" str="USE YOUR 2G" />
+	  <Text id="cta-subtitle0" class="cta-subtitle" str="TO GO EVEN BRIGHTER" />
+	</Graphic>
+</cml>

@@ -1,0 +1,57 @@
+<cml>
+<!-- Home Screen – Third Section (Panels*)
+Overlay Panel Content -->
+<!-- IMPORTANT: This is an interactive button, which will be included in the DTS -->
+<!-- The property "name" is how this content will show in the DTS -->
+<Container id="overlay0" class="overlay" mouseChildren="true" name="Panel 1 Overlay (No Title)">
+	<Image id="overlay0-screenbg" class="overlayscreenbg" src="library/assets/overlaybg.png">
+		<Gesture ref="n-tap" />
+	</Image>
+
+	<Frame id="overlay0-frame" class="overlayframe" mouseChildren="true" >
+		<Image id="overlay0-closebutton" class="overlayclose" src="library/assets/overlayclose.png">
+			<Gesture ref="n-tap" />
+		</Image>
+
+		<Graphic id="overlay0-bg" class="overlaybg"/>
+		<Text id="overlay0-title" class="overlaytitle" str="OVERLAY0 TITLE"/>
+
+		<ScrollPane id="sp" x="0" y="100" width="700" height="900" paneStroke="0" releaseInertia="true">
+			<!-- ScrollBar for styling-->
+			<ScrollBar buttonFill="0x222222" fill="0x333333" thumbFill="0x553344" width="20" railShape="roundRectangle" cornerHeight="15" cornerWidth="15"/>
+
+			<Text id="overlay0-text" class="overlaytext" y="0" height="1400">
+				<p>Behind the wall there are small antennae and sensors that can
+				detect how much Electromagnetic Radiation is being broadcast 
+				in the specific wavelengths that are commonly used for cell
+				phone communication.  Based on the strength of the signal
+				being received at each sensor, controllers inside the wall
+				send a signal to each light telling it how brightly to glow.
+				Brighter lights mean a stronger signal.
+				White light indicates a very strong signal.
+				<br/>
+
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies dolor erat, sit amet faucibus urna pulvinar in. Duis iaculis odio dolor, eget tempus enim iaculis tincidunt. Nam dignissim, sem dignissim rutrum lacinia, sem justo ultricies tellus, nec placerat arcu magna quis tortor. Cras egestas orci sed metus condimentum, id pellentesque mi aliquet. Nullam id ante rutrum, accumsan turpis non, viverra sapien. Donec facilisis, odio in hendrerit ornare, mi odio malesuada tortor, vel consectetur nibh purus a metus. Nam a convallis nulla, et fermentum augue. Aliquam aliquam rhoncus libero non varius. Curabitur congue urna justo, at hendrerit leo accumsan rutrum. Morbi tempus placerat sodales. Donec ac metus vel metus iaculis mattis. Donec mi neque, consectetur sit amet lacus id, commodo lobortis erat. Donec non convallis purus. Integer sed nisl varius, ullamcorper diam congue, ornare ipsum. Etiam viverra lectus ut congue pellentesque. Integer in mi turpis.
+
+In vitae ex sit amet mauris gravida feugiat ac a ipsum. Fusce ac pretium ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed erat ex, pharetra quis congue vitae, accumsan sed turpis. Fusce luctus mi ex, at mattis nisl lacinia ut. Nunc sollicitudin sodales enim, ut viverra metus interdum id. Sed egestas ac sapien in varius. Mauris vel massa eu velit laoreet hendrerit. Nullam a tortor id nibh tempor gravida. Sed bibendum malesuada arcu, sit amet finibus urna molestie nec. Curabitur posuere viverra tincidunt. Curabitur fermentum arcu vel diam tempus, nec aliquam turpis consequat. Vestibulum justo enim, consequat vitae enim eu, ultricies viverra ligula. Nam sem magna, congue commodo velit eget, dapibus hendrerit mauris.
+
+Phasellus lobortis a ipsum nec eleifend. Sed at laoreet sapien, at sagittis ligula. Curabitur euismod vel ex sed sollicitudin. Sed vitae varius magna. Pellentesque vulputate rhoncus leo at fermentum. Vestibulum elementum sapien sed lobortis tincidunt. Donec eleifend massa neque, in lacinia dolor aliquam et. Mauris eget odio orci. Duis ut gravida ipsum.
+
+In a nisi fringilla, facilisis erat eu, porttitor ex. In fermentum odio a dictum volutpat. Integer ut arcu quis ipsum rutrum maximus vel sed urna. Aliquam ut ornare enim, quis tristique elit. Aliquam gravida urna at dui elementum, eu imperdiet nibh tincidunt. In pretium lorem ex, at pellentesque sapien congue nec. Fusce viverra neque a mauris gravida blandit. Curabitur non venenatis quam. In hac habitasse platea dictumst. Ut fringilla tincidunt nisi, et volutpat elit porttitor sit amet. Quisque orci nibh, ultricies ac arcu vitae, lacinia lobortis ipsum. Donec et urna tristique, cursus purus ut, condimentum nisl. Donec non porttitor ipsum. Duis eget semper elit.
+
+Proin aliquet, lorem vel congue efficitur, ex erat pretium justo, sit amet feugiat velit purus ut felis. Cras eget lacus ac neque varius pretium. Vestibulum feugiat interdum aliquam. Integer eu tempor turpis. Curabitur laoreet rutrum magna, at aliquet nibh venenatis quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus iaculis tortor eget nisi blandit molestie. Maecenas faucibus erat nisi, et faucibus mi varius id. Vestibulum quis massa hendrerit, porttitor est a, congue est. Suspendisse nec urna non enim pulvinar imperdiet. Aliquam velit magna, pretium eget faucibus sed, venenatis sit amet lectus.
+				</p>
+			</Text>
+			
+			<!-- TouchContainer so dragging and scrolling can be set on or off, also to assist with making child events accesible provided there is no gesture conflict -->
+			<GestureList>
+				<Gesture ref="n-drag-inertia" gestureOn="true"/>
+				<!-- <Gesture ref="n-scale-inertia" gestureOn="true"/> -->
+			</GestureList>
+
+		</ScrollPane>
+
+	</Frame>
+</Container>
+
+</cml>

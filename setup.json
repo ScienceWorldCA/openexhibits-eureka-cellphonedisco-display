@@ -1,0 +1,11 @@
+{
+	"tracking_dev_enabled": true,
+	"tracking_dev_id": "UA-69625704-4",
+	"tracking_id": "UA-69625704-3",
+	"application_id": "http://sw-cp.console1.ngx",
+	"application_language": "en-us",
+	"screen_resolution": "1080x1920",
+	"ctaTimerValue": 5000,
+	"overlayTimerValue": 50000,
+	"attractTimerValue": 30000
+}

@@ -1,0 +1,33 @@
+<cml css="library/css/panelstyles.css">
+
+<Container id="content-panel3" class="contentpanel">
+	<Graphic id="content-panel3-top" class="contentpaneltop">
+	<Image id="content-panel3-top" src="library/assets/bg3.png"/>
+	  <Text id="content-panel3-top-text" class="contentpaneltoptext" str="WHERE CAN I LEARN MORE?"/>
+	</Graphic>
+	<Graphic id="content-panel3-bottom" class="contentpanelbottom">
+		<Text id="content-panel0-bottom-text" class="contentpanelbottomtext" >
+			<p>Many exhibits in the Eureka Gallery explore some form of Electromagnetic Radiation.<br/>
+			<br/>
+			Try visiting:
+			</p>
+		</Text>
+
+		<Text id="content-panel0-bottom-text" class="contentpanelbottomtextlist" >
+
+			1. The Infrared Camera<br/>
+			2. The Cloud Chamber<br/>
+			3. The Plasma Ball<br/>
+			4. The Spectrum Touch Table<br/>
+			5. The Infrared Harp<br/>
+
+		</Text>
+
+	  <Frame id="content-panel3-button" class="contentpanelbutton">
+		<Text class="contentpanelbuttontext" str="LEARN MORE"/>
+		<Gesture ref="n-tap" />
+	  </Frame> 
+	</Graphic>
+</Container>
+
+</cml>

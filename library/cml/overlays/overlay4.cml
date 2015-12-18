@@ -1,0 +1,27 @@
+<cml>
+<!-- Home Screen – Third Section (Panels*)
+Overlay Panel Content -->
+<!-- IMPORTANT: This is an interactive button, which will be included in the DTS -->
+<!-- The property "name" is how this content will show in the DTS -->
+<Container id="overlay4" class="overlay" mouseChildren="true" name="WHY DOES THE WALL FLASH RANDOMLY?">
+	<Image id="overlay4-screenbg" class="overlayscreenbg" src="library/assets/overlaybg.png">
+		<Gesture ref="n-tap" />
+	</Image>
+
+	<Frame id="overlay4-frame" class="overlayframe">
+		<Image id="overlay4-closebutton" class="overlayclose" src="library/assets/overlayclose.png">
+			<Gesture ref="n-tap" />
+		</Image>
+		<Graphic id="overlay4-bg" class="overlaybg"/>
+		<Container class="overlayvideo" >
+			<Video x="0" y="0" id="overlay2-video" src="library/assets/Cell Phone Disco Panel 3 Radiation.mp4" width="750" height="422" autoplay="false" loop="true" name="CAN YOU PROTECT YOURSELF FROM EMR? Video"/>
+			<Image x="300" y="150" id="playbutton" visible="true" src="library/assets/play.png"/>
+			<Image x="300" y="150" id="pausebutton" visible="false" src="library/assets/pause.png"/>
+			<Gesture ref="n-tap" />
+		</Container>
+	
+
+	</Frame>
+</Container>
+
+</cml>

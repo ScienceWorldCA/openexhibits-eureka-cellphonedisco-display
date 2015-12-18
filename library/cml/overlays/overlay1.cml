@@ -1,0 +1,51 @@
+<cml>
+<!-- Home Screen – Third Section (Panels*)
+Overlay Panel Content -->
+<!-- IMPORTANT: This is an interactive button, which will be included in the DTS -->
+<!-- The property "name" is how this content will show in the DTS -->
+<Container id="overlay1" class="overlay" mouseChildren="true" name="WHAT DEVICES USE EMR?">
+	<Image id="overlay1-screenbg" class="overlayscreenbg" src="library/assets/overlaybg.png">
+		<Gesture ref="n-tap" />
+	</Image>
+
+	<Frame id="overlay1-frame">
+		<Image id="overlay1-closebutton" class="overlayclose" src="library/assets/overlayclose.png">
+			<Gesture ref="n-tap" />
+		</Image>
+		<Graphic id="overlay1-bg"/>
+		<Image x="0" y="0" src="library/assets/image1.png"/>
+
+<Text id="overlay1-title" y="1100" class="overlaytitle" str="WHAT DEVICES USE EMR?" />
+
+<Text id="overlay1-text" class="overlaytext" y="1150" height="900">
+	<p>These popular, mobile electronic devices use radio waves or their close cousin, microwaves, to transmit information to other people or devices.<br/>
+	<br/>
+	How many of these do you have in your home? <br/>
+	<br/>
+
+
+	Garage door openers<br/>
+	Am/FM radios<br/>
+	Televisions<br/>
+	Cell phones<br/>
+	Smart phones<br/>
+	Wireless headsets<br/>
+	Car door openers<br/>
+	Keyless car starters
+
+	Motion sensors<br/>
+	Tablets<br/>
+	Smart meters<br/> 
+	Global Positioning Systems (GPS)<br/>
+	Walkie talkies<br/>
+	WIFI Internet devices<br/>
+	Radio-controlled toys
+
+	</p>
+</Text>
+
+
+	</Frame>
+</Container>
+
+</cml>

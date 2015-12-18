@@ -1,0 +1,8 @@
+<cml>
+	<!-- Main Screen – Top Red Header Section - Slideshow Content -->
+	<Graphic id="cta-bg4" class="cta-bg">
+	  <Image id="wb-2" src="library/assets/ctabg.png" width="1050" />
+	  <Text id="cta-title4" class="cta-title" embedFonts="true" str="TRY TURNING"/>
+	  <Text id="cta-subtitle4" class="cta-subtitle" str="YOUR PHONE OFF AND ON" />
+	</Graphic>
+</cml>

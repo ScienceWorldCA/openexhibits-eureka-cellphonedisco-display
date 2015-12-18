@@ -1,0 +1,13 @@
+<ScrollPane id="sp" x="0" y="100" width="700" height="900" paneStroke="0" releaseInertia="true">
+<!-- ScrollBar for styling-->
+<ScrollBar buttonFill="0x222222" fill="0x333333" thumbFill="0x553344" width="20" railShape="roundRectangle" cornerHeight="15" cornerWidth="15"/>
+
+CONTENT
+
+<!-- TouchContainer so dragging and scrolling can be set on or off, also to assist with making child events accesible provided there is no gesture conflict -->
+<GestureList>
+	<Gesture ref="n-drag-inertia" gestureOn="true"/>
+	<!-- <Gesture ref="n-scale-inertia" gestureOn="true"/> -->
+</GestureList>
+
+</ScrollPane>
